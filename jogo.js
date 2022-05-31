@@ -29,11 +29,6 @@ do
     console.log('Profesiones')
     console.log('1.Desempleado')
     console.log('2.Bombero')
-    console.log('3.Agente de Policia')
-    console.log('4.Guardia Forestal')
-    console.log('5.Obrero')
-    console.log ('6.Guardia de seguridad')
-    console.log ('7.Carpintero')
     opcion= prompt('Elija su profesion').toLowerCase().trim()
     if (opcion === '1' || opcion === 'desempleado')
     {
